@@ -1,0 +1,7 @@
+E:\Git\C#homework\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+E:\Git\C#homework\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+E:\Git\C#homework\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+E:\Git\C#homework\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+E:\Git\C#homework\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\Git\C#homework\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+E:\Git\C#homework\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
