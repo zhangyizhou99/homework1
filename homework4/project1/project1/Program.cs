@@ -58,7 +58,7 @@ namespace project1
             int c, d;
             c = int.Parse(a);
             d = int.Parse(b);
-            if (a == c & b == d)
+            if (c == shi &&d == fen)
                 Console.WriteLine(this.shi + "时" + this.fen + "分已到");
             }
 
