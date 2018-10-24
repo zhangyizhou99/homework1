@@ -101,12 +101,12 @@ namespace project2
 
         public void Volume()
         {
-            Console.WriteLine("查询到学生的总人数为{0}", OderDetails.Count);
+            Console.WriteLine("查询到订单的总人数为{0}", OderDetails.Count);
 
         }
 
 
-        public static OderDetail[] Search(string Name) {
+        public static OderDetail Search(string Name) {
             List<OderDetail> OdeList = new List<OderDetail>();
             for (int i = 0; i < OderDetails.Count; i ++) {
 
