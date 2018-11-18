@@ -13,7 +13,7 @@ namespace ordertest {
     public class Order {
 
         private List<OrderDetail> details=new List<OrderDetail>();
-
+        List<OrderDetail> orderDatas;
         /// <summary>
         /// Order constructor
         /// </summary>
@@ -23,12 +23,16 @@ namespace ordertest {
             Id = orderId;
             Customer = customer;
         }
-
+        public Order()
+        {
+            orderDatas = new List<OrderDetail>();
+        }
         /// <summary>
         /// order id
         /// </summary>
         public uint Id { get; set; }
 
+        
         /// <summary>
         /// the man who orders goods
         /// </summary>

@@ -10,19 +10,28 @@ using System.Windows.Forms;
 using ordertest;
 namespace OrderTest
 {
-    public partial class Form3 : Form
+    public partial class Form4 : Form
     {
-        public Form3()
+        public Form4()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            uint orderId = uint.Parse(textBox1.Text);
-            OrderService os = new OrderService();
-            os.RemoveOrder(orderId);
+            MessageBox.Show("Update order succeed!!!");
+            this.Close();
 
+
+        }
+
+        public Customer newcustomer() {
+
+            uint orderId = uint.Parse(textBox1.Text);
+            string newName = textBox2.Text;
+            Customer newCustomer = new Customer(orderId ,newName) ;
+            return newCustomer;
         }
     }
 }
+

@@ -9,8 +9,8 @@ namespace ordertest {
 
     class MainClass {
         public static void Main() {
-            Form1 myForm = new Form1();
-            myForm.ShowDialog();
+            /*Form1 myForm = new Form1();
+            myForm.ShowDialog();*/
             try {
                 Customer customer1 = new Customer(1, "Customer1");
                 Customer customer2 = new Customer(2, "Customer2");
@@ -65,8 +65,12 @@ namespace ordertest {
                     od => Console.WriteLine(od));
                 System.Console.ReadKey();
 
+                
+
+
             } catch (Exception e) {
                 Console.WriteLine(e.Message);
+                
             }
             
         }

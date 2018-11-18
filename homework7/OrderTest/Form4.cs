@@ -19,14 +19,18 @@ namespace OrderTest
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Update order succeed!!!");
+            this.Close();
+
+
+        }
+
+        public Customer newcustomer() {
+
             uint orderId = uint.Parse(textBox1.Text);
             string newName = textBox2.Text;
             Customer newCustomer = new Customer(orderId ,newName) ;
-            OrderService os = new OrderService();
-            os.GetById(orderId);
-            
-            
-            os.UpdateCustomer(orderId, newCustomer);
+            return newCustomer;
         }
     }
 }

@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Properties\DataSources\ordertest.Order.datasource" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
